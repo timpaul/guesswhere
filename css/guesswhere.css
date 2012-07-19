@@ -1,0 +1,205 @@
+/* guesswhere.css */
+
+body{
+  text-transform: uppercase;
+}
+#site-header{
+  padding: 1em;
+  border-bottom: 1em solid black;
+  overflow: hidden;
+}
+#site-header > h1{
+  float: left;
+}
+#site-header > h1:before{
+  content: "// ";
+}
+#site-header > h1 > a{
+  color: black;
+  text-decoration: none;
+  border-bottom: 0.2em solid white;
+}
+#site-header > h1 > a:hover{
+  color: #06e;
+  border-bottom: 0.2em solid #06e;
+  
+}
+#header-nav{
+  width: 16em;
+  float: right;
+}
+#header-nav div{
+  margin-top: 21px;
+}
+#header-nav a{
+  font-size: 2em;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  line-height: 1.4em;
+}
+#header-nav a,
+strong{
+  background-color: red;
+  color: white;
+  padding: 0 0.25em;
+}
+
+#header-nav a:hover{
+  background-color: white;
+  color: #06e;
+  border-bottom: 0.2em solid #06e;
+}
+
+div[role=main]{
+  display: table;
+  padding: 0 0 0 01em;
+}
+div[role=main] > *{
+  display: table-cell;
+}
+#stats{
+  background-color: #ebebeb;
+  padding: 0 1em;
+  position: relative;
+}
+
+#city-score{
+  font-size: 1.5em;
+  margin-left: 0.75em;
+  font-weight: bold;
+}
+#unguessed,
+#guessed{
+  overflow: hidden;
+  text-transform: uppercase;
+}
+.photos{
+  padding-left: 0.5em;
+}
+.photo{
+  float: left;
+  width: 8em;
+  padding: 0.5em;
+  background-color: black;
+  margin-left: -0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+}
+.photo img{
+  width: 100%;
+  border: 0.5em solid black;
+  margin: -0.5em 0 0 -0.5em;
+}
+.photo > a:hover img{
+  border: 0.5em solid red;
+}
+.photo figcaption{
+  background-color: black;
+  padding-top: 0.5em;
+  color: white;
+  font-size: 0.8em;
+  overflow: hidden;
+}
+.photo figcaption a{
+  color: red;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+}
+.photo figcaption a:hover{
+  color: white;
+  background-color: red;
+}
+
+#unguessed > header,
+#guessed > header{
+  padding: 0;
+}
+#unguessed .photos,
+#guessed .photos{
+ overflow: hidden;
+}
+
+.more{
+  float: left;
+  font-size: 5em;
+  line-height: 2.05em;
+  width: 1em;
+  overflow: hidden;
+  margin-left: 0.2em;
+}
+.more a{
+color: white;
+text-decoration: none;
+border-bottom: 0.2em dotted red;
+}
+.more a:hover{
+  border-color: black;
+  /*color: #ebebeb;
+  background-color: #ebebeb;*/
+}
+
+body > footer{
+  text-transform: uppercase;
+  padding: 1em;
+  background: #ebebeb;
+}
+
+.footer-links{
+  list-style-type: none;
+  margin: 0; padding: 0;
+}
+.footer-links a{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding: 0.2em;
+  margin-left: 0.2em;
+}
+.footer-links a:hover{
+  color: white;
+  background: red;
+  text-decoration: none;
+}
+
+#stats{
+  /*width: 17em;
+  float: right;*/
+}
+.rankings{
+  width: 16em;
+}
+.rankings tr{
+  font-size: 0.8em;
+}
+.rankings td,
+.rankings th{
+  padding: 0.25em;
+}
+.rankings .number1{
+  background-color: black;
+  color: red;
+  font-weight: bold;
+  font-size: 1em;
+}
+.number1 th{
+  /*background-color: red;*/
+  color: white;
+}
+
+#howtoplay pre{
+  font-family: sans-serif;
+  display: inline-block;
+  color: red;
+  font-weight: bold;
+  padding: 0 0.2em;
+  margin: 0;
+}
+
+.comment{
+  border-left: 0.5em solid #ebebeb;
+  padding: 0.65em 0.5em;
+  margin-bottom: 1em;
+}
+
